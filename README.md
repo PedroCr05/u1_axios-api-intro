@@ -233,7 +233,7 @@ let dogPic = response.data.message
 8. Finally, let's update the DOM with our new image link by setting the Src attribute of our image div to be the data we've pulled: 
 
 ```js
-imageContainer.setAttribute ('src', `${dogpic}`)
+imageContainer.setAttribute ('src', `${dogPic}`)
 ```
 
 
